@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RainView_Example' do
+  pod 'RainView', :path => '../'
+
+  target 'RainView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
